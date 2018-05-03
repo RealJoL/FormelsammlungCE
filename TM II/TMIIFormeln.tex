@@ -1,13 +1,45 @@
 \documentclass{scrartcl}
+\usepackage{geometry}
+\newgeometry{vmargin={15mm}, hmargin={7mm,12mm}}
 \begin{document}
 	\title{Formelsammlung Technische Mechanik II}
 	\date{}
 	\author{}
 	\maketitle
-	
-\begin{minipage}{0,45 \textwidth}
+\large	
+\begin{minipage}{0,47 \textwidth}
 	\begin{itemize}
-		\item $\phi - \omega = \pi$
+        
+        \item{Spannung}
+        
+        $\sigma = \frac{N \rightarrow Normalkraft}{A \rightarrow Flaeche}$
+             
+        $\sigma = E \epsilon$
+        
+        \item{Transformationsgleichungen}
+        
+        $\sigma_\xi = \frac{1}{2}(\sigma_x + \sigma_y) + \frac{1}{2}(\sigma_x - \sigma_y)\cos2\phi+\tau_{xy}\sin2\phi        
+        $
+        
+        $\tau_{\xi} =           -\frac{1}{2}(\sigma_x - \sigma_y)\sin2\phi+\tau_{xy}\cos2\phi$
+        
+		\item{Elastitätsgesetz "Stab"}
+        
+        $\epsilon = \frac{\sigma}{E}+\alpha_T\triangle T$
+		
+		$\epsilon_x = \frac{1}{E}\cdot[\sigma_x - v \cdot \sigma_y] + \alpha_T\triangle T  $
+		
+    	$	\epsilon_x = \frac{1}{E}\cdot[\sigma_x - v \cdot (\sigma_y + \sigma_z)] + \alpha_T\triangle T  
+    	$	
+
+		\item{Schubmodul}
+	
+		$\mu = \frac{E}{2(1+v)} $
+
+        \item{Längenänderung Stab}
+        
+        $\delta l = \frac{Fl}{EA} (+   \alpha_T\triangle T)$
+
 	\end{itemize}
 \end{minipage}%
 \hfill
